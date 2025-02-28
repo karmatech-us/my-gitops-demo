@@ -11,7 +11,7 @@ public class MyGitopsDemoApplication {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello, GitOps..............";
+		return "Hello, ArgoCD......";
 	}
 
 	public static void main(String[] args) {
