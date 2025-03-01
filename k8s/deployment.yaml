@@ -16,6 +16,7 @@ spec:
       containers:
       - name: spring-service
         image: localhost:5000/spring-service:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
 ---
