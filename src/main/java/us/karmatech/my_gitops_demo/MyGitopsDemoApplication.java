@@ -11,7 +11,7 @@ public class MyGitopsDemoApplication {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello World? Test 3:32 PM ?";
+		return "Hello World? Test 3:46 PM ?";
 	}
 
 	public static void main(String[] args) {
