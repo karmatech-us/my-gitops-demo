@@ -13,7 +13,7 @@ spec:
       labels:
         app: spring-service
       annotations:           # Add this block here
-        rollme: "2025-03-01-2"  # Update this value each push
+        rollme: "2025-03-01-10"  # Update this value each push
 
     spec:
       containers:
