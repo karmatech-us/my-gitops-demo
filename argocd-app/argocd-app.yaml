@@ -17,6 +17,9 @@ spec:
     automated:
       prune: true
       selfHeal: true
+      allowEmpty: true  # Allow empty state if needed
     syncOptions:
-    - Replace=true  # Force full replace
+    - Replace=true
+    - ApplyOutOfSyncOnly=true  # Only apply changes
+    - Force=true  # Add this to match UI "FORCE"
 #EOF
